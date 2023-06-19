@@ -1,0 +1,36 @@
+.product-info {
+    text-align: center;
+  }
+  
+  .product-info img {
+    max-width: 300px; /* Ajusta el tamaño de la imagen según tus preferencias */
+    display: block;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+  }
+
+  #payButton {
+    background-color: blue; /* Cambia el color del fondo al azul deseado */
+    color: white; /* Cambia el color del texto a blanco para mayor contraste */
+    border-radius: 4px; /* Aplica esquinas redondeadas al botón */
+    padding: 10px 20px; /* Ajusta el relleno interno del botón según tus preferencias */
+    font-size: 16px; /* Ajusta el tamaño de fuente del botón según tus preferencias */
+    cursor: pointer;
+  }
+  
+  #payButton:hover {
+    animation: pulse 1s infinite; /* Aplica una animación de pulso al botón al pasar el cursor sobre él */
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  
